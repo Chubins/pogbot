@@ -22,7 +22,7 @@ client.on('message', message =>{
     }
 });
 
-client.login(process.env.bottoken)
+client.login('Nzc2MjI1MjI4NzgyOTYwNjUw.X6xyFA.YHpgEIYO_ejz6DVbKB702NW7304')
 
 const keepAlive = require('./server');
 keepAlive();
