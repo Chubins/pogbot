@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+require("dotenv").config();
 
 const client = new Discord.Client();
 
@@ -21,7 +22,7 @@ client.on('message', message =>{
     }
 });
 
-client.login('Nzc2MjI1MjI4NzgyOTYwNjUw.X6xyFA.M8tUWinFe1AQab26GVoMVonSfo4');
+client.login(process.env.bottoken)
 
 const keepAlive = require('./server');
 keepAlive();
