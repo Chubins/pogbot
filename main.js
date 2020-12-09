@@ -18,7 +18,7 @@ client.on('message', message =>{
     if(command === 'pog'){
         message.channel.send('https://i.imgur.com/Pp3Ra0N.png');
     } else if (command == 'pogbotinfo'){
-        message.channel.send('pogbot was made by Chubins#8664. His website is https://www.chubins.tk. His discord is https://discord.gg/uUK9UVV . Add pogbot to your server here: https://www.chubins.tk/projects')
+        message.channel.send('https://tenor.com/view/pogchamp-pog-pogey-poggers-twitch-gif-14340727')
     }
 });
 
