@@ -17,7 +17,7 @@ client.on('message', message =>{
 
     if(command === 'pog'){
         message.channel.send('https://i.imgur.com/Pp3Ra0N.png');
-    } else if (command == 'pogbotinfo'){
+    } else if (command == 'apog'){
         message.channel.send('https://tenor.com/view/pogchamp-pog-pogey-poggers-twitch-gif-14340727')
     }
 });
